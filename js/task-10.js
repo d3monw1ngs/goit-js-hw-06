@@ -18,6 +18,12 @@ function createBoxes() {
     box.style.height = baseSize + "px";
     box.style.backgroundColor = getRandomHexColor();
     boxesContainer.appendChild(box);
-  }
 
+    baseSize += 10;
+  }
+}
+
+function destroyBoxes() {
+  let boxesContainer = document.getElementById("boxes");
+  boxesContainer.innerHTML = "";
 }
