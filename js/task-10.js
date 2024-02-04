@@ -4,3 +4,9 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
+function createBoxes() {
+  const boxCount = document.getElementById('boxCount').value;
+  const boxesContainer = document.getElementById('boxes');
+
+  
+}
